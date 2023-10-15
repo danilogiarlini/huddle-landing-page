@@ -1,38 +1,41 @@
-.App {
+body {
+  background-color: hsl(257, 40%, 49%);
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top-page {
+  background-image: url("./images/bg-mobile.svg");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  width: 30%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.illustration {
+  width: 80%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+main h1 {
+  font-family: 'Poppins', 'sans-serif';
+}
+
+main p {
+  font-family: 'Open sans', 'sans-serif';
+}
+
+main button {
+  background-color: white;
+  font-family: 'Poppins', 'sans-serif';
+  border: 0;
+  padding: 1rem 5rem;
+  color: hsl(257, 40%, 49%);
+  border-radius: 30px;
 }
